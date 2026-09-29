@@ -1,1 +1,2 @@
+export GOOGLE_GENAI_USE_VERTEXAI=true
 export GOOGLE_APPLICATION_CREDENTIALS="credentials.json"
