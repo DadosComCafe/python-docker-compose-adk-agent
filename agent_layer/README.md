@@ -9,4 +9,6 @@
 
 
 ## How to Run
-...
+1 - cd agent_layer/app
+2 - uv sync
+3 - uv run adk run my_agent/
