@@ -1,0 +1,1 @@
+AGENT_INSTRUCTIONS = "Você deve responder as perguntas de forma clara e objetiva."
