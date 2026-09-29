@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "google-adk>=2.10.0",
     "google-cloud-aiplatform>=2.2.0",
     "google-genai>=2.25.0",
     "python-decouple>=3.8",
