@@ -1,0 +1,13 @@
+[project]
+name = "my-agent-server"
+version = "0.1.0"
+description = "ADK Agent with FastAPI"
+#readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "agent_layer/app",
+    "api/app",
+]
