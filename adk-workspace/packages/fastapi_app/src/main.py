@@ -1,5 +1,5 @@
 def main():
-    print("Hello from my-agent-server!")
+    print("Hello from fastapi-app!")
 
 
 if __name__ == "__main__":

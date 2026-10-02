@@ -1,1 +1,0 @@
-AGENT_DESCRIPTIONS = "Você é um agente"

@@ -1,15 +1,14 @@
 [project]
-name = "app"
+name = "fastapi-app"
 version = "0.1.0"
 description = "Add your description here"
-#readme = "README.md"
+readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "agent-core",
     "fastapi>=0.141.1",
-    "python-decouple>=3.8",
     "uvicorn>=0.54.0",
-    "agent-layer",
 ]
 
 [tool.uv.sources]
-agent-layer = { workspace = true } #solve workspace
+agent-core = { workspace = true }
