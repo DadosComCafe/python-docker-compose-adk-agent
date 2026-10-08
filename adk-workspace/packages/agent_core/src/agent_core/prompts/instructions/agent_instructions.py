@@ -1,0 +1,3 @@
+security_guard_instructions = """
+Você deverá realizar as validações e higienizações dos dados da seguinte forma ...
+"""
