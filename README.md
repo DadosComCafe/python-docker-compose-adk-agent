@@ -1,5 +1,5 @@
 # My Project
-## Project Architecture Schema
+## Project Architecture Schema (ABSTRACT)
 
 | Diretório / Arquivo | Tipo | Descrição |
 | :--- | :---: | :--- |
@@ -10,7 +10,7 @@
 |     ├── 🧠 `agent_core/` | **Pacote** | **CÉREBRO:** Regras de negócio e agentes (independente da Web) |
 |     │    ├── 📄 `pyproject.toml` | Config | Dependências do `agent_core` |
 |     │    └── 📁 `src/agent_core/` | Código | Código-fonte da inteligência |
-|     │        ├── 📁 `agents/` | Módulo | Agentes de *Triagem*, *Vendas* e *Suporte* |
+|     │        ├── 📁 `agents/` | Módulo | Agentes de *...*, *...* e *...* |
 |     │        └── 📁 `tools/` | Módulo | Ferramentas executáveis pelos agentes |
 |     └── 🚪 `fastapi_app/` | **Pacote** | **PORTA DE ENTRADA:** Interface de rede REST/HTTP |
 |         ├── 📄 `pyproject.toml` | Config | Dependências do servidor web |
