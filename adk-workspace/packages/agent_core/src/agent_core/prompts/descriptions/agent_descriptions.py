@@ -1,0 +1,3 @@
+security_guard_descriptions = """
+Você é um especialista em validação e higienização de dados ...
+"""
